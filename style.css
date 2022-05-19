@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+@media(min-width: 400px) {
+body {
+  background-image: url("https://365thingsinhouston.com/wp-content/uploads/2022/04/top-concerts-live-shows-music-performances-in-houston-may-2022-coldplay-2-1024x599.jpeg");
+}
+
+.footer {
+  font-size: 1.23em;
+  color: #000;
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+}
+
+p {
+  float: right;
+  margin-right: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+#drum-machine {
+  display: block;
+  position: relative;
+  /*background-color: #9FE2BF;*/
+  height: 400px;
+}
+ 
+button {
+  text-align: center;
+  font-size: 3em; 
+  height: 90px;
+  width: 105px;
+  margin: 25px;
+  margin-top: 100px;
+  margin-left: 28px;
+  background-color: transparent;
+  border-image: linear-gradient(45deg, yellow, green);
+  border-image-slice: 1;
+  cursor: pointer;
+ }
+button:hover {
+  background-color: transparent;
+}
+button:active {
+  color: linear-gradient(45deg, yellow, green);
+  background-color: transparent;
+  box-shadow: 0 5px white;
+  outline: 0;
+}
+  
+.switch {
+  margin: 40px;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+}
