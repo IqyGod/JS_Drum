@@ -1,39 +1,44 @@
-
-
-
-const Qsound = document.getElementById("Q")
 function playSoundQ() {
-  Qsound.play();
-} 
-const Wsound = document.getElementById("W")
+  const audio = document.getElementById("Q");
+  audio.play();
+}
+
 function playSoundW() {
-  Wsound.play();
+  const audio = document.getElementById("W");
+  audio.play();
 }
-const Esound = document.getElementById("E")
+
 function playSoundE() {
-  Esound.play();
-} 
-const Asound = document.getElementById("A")
+  const audio = document.getElementById("E");
+  audio.play();
+}
+
 function playSoundA() {
-  Asound.play();
+  const audio = document.getElementById("A");
+  audio.play();
 }
-const Ssound = document.getElementById("S")
+
 function playSoundS() {
-  Ssound.play();
+  const audio = document.getElementById("S");
+  audio.play();
 }
-const Dsound = document.getElementById("D")
+
 function playSoundD() {
-  Dsound.play();
-} 
-const Zsound = document.getElementById("Z")
+  const audio = document.getElementById("D");
+  audio.play();
+}
+
 function playSoundZ() {
-  Zsound.play();
-} 
-const Xsound = document.getElementById("X")
+  const audio = document.getElementById("Z");
+  audio.play();
+}
+
 function playSoundX() {
-  Xsound.play();
-} 
-const Csound = document.getElementById("C")
+  const audio = document.getElementById("X");
+  audio.play();
+}
+
 function playSoundC() {
-  Csound.play();
-} 
+  const audio = document.getElementById("C");
+  audio.play();
+}
